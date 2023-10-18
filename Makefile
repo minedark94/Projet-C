@@ -2,7 +2,7 @@ CC = gcc
 CFLAGS = -Wall
 LDFLAGS = -lssl -lcrypto
 INCLUDES = -I/usr/include/openssl
-SOURCES = main.c arbre_binaire.c lecture_ecriture.c sha256.c
+SOURCES = src/main.c src/arbre_binaire.c src/lecture_ecriture.c src/sha256.c
 EXECUTABLE = projet-bin
 
 all: $(SOURCES)
