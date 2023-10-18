@@ -103,7 +103,7 @@ void rechercheCondensatsStdin(Correspondance *root) {
         //printf("%d\n",i);
         condensatRecherche[strcspn(condensatRecherche, "\n")] = '\0'; // Supprimer le saut de ligne
         rechercheParmiCondensats(root, condensatRecherche);
-        i++;
+        //i++;
     }
     
     
