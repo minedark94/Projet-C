@@ -12,25 +12,30 @@ Le programme en langage C offre deux modes : génération de condensats et reche
 ## Installation
 
 shell
+
     sudo apt-get install libssl-dev 
+
     git clone https://github.com/minedark94/Projet-C.git
+
     cd Projet-C
+
     make
 
 Docker
+
     sudo docker build -t projetc:latest .
 
 ## Utilisation
 
 shell
 
-    Exemple d'utilisation mode G: 
+Exemple d'utilisation mode G: 
 
-        cat rockyou.txt |./projet-bin -G -o rockyou.corresp
+    cat rockyou.txt |./projet-bin -G -o rockyou.corresp
 
-    Exemple d'utilisation mode L: 
+Exemple d'utilisation mode L: 
 
-        echo "75e5441a4cf226d2149d45f5609dcce0cf4dee3fad1dd14db54390cf0f772cba" | ./projet-bin -L -i rockyou.corresp
+    echo "75e5441a4cf226d2149d45f5609dcce0cf4dee3fad1dd14db54390cf0f772cba" | ./projet-bin -L -i rockyou.corresp
 
 
 Docker
