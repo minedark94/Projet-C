@@ -23,10 +23,13 @@ Docker
 ## Utilisation
 
 shell
+
     Utilisation mode G: ./projet-bin -G -o <fichier_sortie>
+
     Utilisation mode L: ./projet-bin -L -i <fichier_entree>
 
 Docker
+
     sudo docker run --rm -ti -v $(pwd):/app  mon_programme:latest /bin/bash
 
 ou (dependant du système)
@@ -34,6 +37,6 @@ ou (dependant du système)
     sudo docker run --rm -ti -v ./:/app  mon_programme:latest /bin/bash
 
 
-    Par la suite utiliser le programme comme un shell classic
+Par la suite utiliser le programme comme un shell classic
 
 
