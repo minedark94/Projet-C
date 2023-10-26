@@ -24,9 +24,14 @@ Docker
 
 shell
 
-    Utilisation mode G: ./projet-bin -G -o <fichier_sortie>
+    Exemple d'utilisation mode G: 
 
-    Utilisation mode L: ./projet-bin -L -i <fichier_entree>
+        cat rockyou.txt |./projet-bin -G -o rockyou.corresp
+
+    Exemple d'utilisation mode L: 
+
+        echo "75e5441a4cf226d2149d45f5609dcce0cf4dee3fad1dd14db54390cf0f772cba" | ./projet-bin -L -i rockyou.corresp
+
 
 Docker
 
