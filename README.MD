@@ -1,4 +1,4 @@
-# Projet C - Artur V
+# Projet C - Arthur V
 
 Le programme en langage C offre deux modes : génération de condensats et recherche de chaînes parmi des condensats. Il prend en charge des entrées depuis un fichier ou le flux standard d'entrée. Les condensats sont générés à l'aide de l'algorithme SHA-256. Le programme peut être exécuté via Docker. 
 
